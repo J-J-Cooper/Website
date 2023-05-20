@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="resources/css/light-style.css">
 
 	</head>
-
+/
 	<body>
 		<!-- php header-->
 		<?php
