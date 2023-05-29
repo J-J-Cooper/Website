@@ -18,14 +18,12 @@
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-		<link rel="stylesheet" href="resources/css/navbar-style-light.css">
-		<link rel="stylesheet" href="resources/css/light-style.css">
+		<link rel="stylesheet" href="resources/css/navbar-style.css">
 
 	</head>
 
 	<body>
 		<!-- php header-->
-		
 		<?php
 			include ('resources/navbar.php')
 		?>
