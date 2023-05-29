@@ -3,8 +3,8 @@
 		<a id="nav__link" href="website-home.html">
 			JC
 		</a>
-	</h1>
-	<br>
+	</h1> 
+	
 	<div id="nav__container">
 		<a href="website-home.html">
 			<div class="nav__button">
