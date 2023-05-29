@@ -25,6 +25,7 @@
 
 	<body>
 		<!-- php header-->
+		
 		<?php
 			include ('resources/navbar.php')
 		?>
