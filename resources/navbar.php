@@ -8,10 +8,10 @@
 	<div id="nav__container">
 		<ul id="nav__ul">
 			<li id="nav__li"><a class="nav__active" href="index.php">Home</a></li>
-			<li id="nav__li"><a href="CV.php">CV</a></li>
-			<li id="nav__li"><a href="Hindi.php">Hindi</a></li>
-			<li id="nav__li"><a href="Floorplan.php">Floorplan</a></li>
-			<li id="nav__li"><a href="Contact.php">Contact me</a></li>
+			<li id="nav__li"><a href="cv.php">CV</a></li>
+			<li id="nav__li"><a href="hindi.php">Hindi</a></li>
+			<li id="nav__li"><a href="floorplan.php">Floorplan</a></li>
+			<li id="nav__li"><a href="contact.php">Contact me</a></li>
 		</ul>
 	</div>
 	<button onclick="darkToggle()">Toggle</button>

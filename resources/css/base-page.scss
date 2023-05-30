@@ -8,7 +8,7 @@ body{
     color:theme.$black;
 
     .dark-mode{
-        background-color:red;
+        background-color:theme.$black;
         color:theme.$white;
     }
 }
