@@ -20,10 +20,10 @@
 
 		<link rel="stylesheet" href="resources/css/base-page.css">
 
+		<script src="resources/js/scripts.js"></script>
 	</head>
 
 	<body>
-		<!-- php header-->
 		<?php
 			include ('resources/navbar.php')
 		?>
@@ -87,7 +87,5 @@
 			</p>
 		</div>
 		<!-- PHP footer -->
-		<!-- your content here... -->
-		<script src="js/scripts.js"></script>
 	</body>
 </html>

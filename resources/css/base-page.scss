@@ -1,1 +1,14 @@
-@use '_navbar-style.scss'
+@use '_navbar-style.scss';
+@use '_theme.scss';
+
+body{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:theme.$white;
+    color:theme.$black;
+
+    .dark-mode{
+        background-color:red;
+        color:theme.$white;
+    }
+}

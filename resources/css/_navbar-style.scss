@@ -1,29 +1,48 @@
-@use '_colours.scss';
+@use '_theme.scss';
 
 #nav {
-    border:1px solid colours.$black;
+    border-bottom:0px solid theme.$black;
+    background-color: theme.$grey;
 }
 
 #nav__heading{
-    border:1px solid colours.$black;
+    padding: 1rem;
+    margin:0;
 }
 
 #nav__link{
-    border:1px solid colours.$black;
+    text-decoration: none;
+    color: theme.$white;
 }
 
 #nav__container{
-    border:1px solid colours.$black;
 }
 
-#nav__button{
-    border:1px solid colours.$black;
+#nav__ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
 }
 
-#nav__button--current{
-    border:1px solid colours.$black;
+#nav__li{
+    float: left;
+
+    a{
+        display: block;
+        color: theme.$white;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-weight:bold;
+    }
+
+    a:hover:not(.nav__active){
+        background-color: theme.$cream;
+        color:theme.$black;
+    }
 }
 
-#nav__dropdown{
-    border:1px solid colours.$black;
+.nav__active{
+    background-color: theme.$teal;
 }
