@@ -4,7 +4,9 @@
 			Josh Cooper
 		</a>
 	</h1> 
-	
+
+	<button id="nav__theme"><i onclick="darkToggle(this)" class="fa-solid fa-sun"></i></button>
+
 	<div id="nav__container">
 		<ul id="nav__ul">
 			<li id="nav__li"><a class="nav__active" href="index.php">Home</a></li>
@@ -14,5 +16,5 @@
 			<li id="nav__li"><a href="contact.php">Contact me</a></li>
 		</ul>
 	</div>
-	<button onclick="darkToggle()">Toggle</button>
+	
 </div>

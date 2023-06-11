@@ -6,8 +6,26 @@
 }
 
 #nav__heading{
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     margin:0;
+    max-width:75%;
+    display: inline-block;
+}
+
+#nav__theme{
+    float:right;
+    height:3rem;
+    width:3rem;
+    border:none;
+    color:theme.$white;
+    background-color:theme.$grey;
+    border-radius:50%;
+    display:block;
+    margin:1rem;
+    text-align:center;
+    text-decoration: none;
+    font-size:2rem;
+    font-weight:bold;
 }
 
 #nav__link{
@@ -40,6 +58,16 @@
     a:hover:not(.nav__active){
         background-color: theme.$cream;
         color:theme.$black;
+    }
+
+    button{
+        border: none;
+        border-radius:50%;
+        display: block;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-weight:bold;
     }
 }
 

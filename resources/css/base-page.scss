@@ -7,8 +7,10 @@ body{
     background-color:theme.$white;
     color:theme.$black;
 
-    .dark-mode{
-        background-color:theme.$black;
-        color:theme.$white;
-    }
+    
+}
+
+.dark-mode{
+    background-color:theme.$grey;
+    color:theme.$white;
 }

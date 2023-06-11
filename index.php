@@ -21,6 +21,7 @@
 		<link rel="stylesheet" href="resources/css/base-page.css">
 
 		<script src="resources/js/scripts.js"></script>
+		<script src="https://kit.fontawesome.com/d3a4154980.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
