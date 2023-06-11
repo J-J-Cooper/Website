@@ -24,7 +24,7 @@
 		<script src="https://kit.fontawesome.com/d3a4154980.js" crossorigin="anonymous"></script>
 	</head>
 
-	<body>
+	<body onload="navActive()">
 		<?php
 			include ('resources/navbar.php')
 		?>

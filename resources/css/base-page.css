@@ -54,7 +54,7 @@ body {
   font-weight: bold;
 }
 #nav__li a:hover:not(.nav__active) {
-  background-color: #dfddcf;
+  background-color: #f0f0f0;
   color: #191516;
 }
 #nav__li button {
