@@ -9,11 +9,11 @@
 
 	<div id="nav__container">
 		<ul id="nav__ul">
-			<li id="nav__li"><a id="nav__index" class="nav__a" href="index.php">Home</a></li>
-			<li id="nav__li"><a id="nav__cv" class="nav__a" href="cv.php">CV</a></li>
-			<li id="nav__li"><a id="nav__hindi" class="nav__a" href="hindi.php">Hindi</a></li>
-			<li id="nav__li"><a id="nav__floorplan" class="nav__a" href="floorplan.php">Floorplan</a></li>
-			<li id="nav__li"><a id="nav__contact" class="nav__a" href="contact.php">Contact me</a></li>
+			<li class="nav__li"><a id="nav__index" class="nav__a" href="index.php">Home</a></li>
+			<li class="nav__li"><a id="nav__cv" class="nav__a" href="cv.php">CV</a></li>
+			<li class="nav__li"><a id="nav__hindi" class="nav__a" href="hindi.php">Hindi</a></li>
+			<li class="nav__li"><a id="nav__floorplan" class="nav__a" href="floorplan.php">Floorplan</a></li>
+			<li class="nav__li"><a id="nav__contact" class="nav__a" href="contact.php">Contact me</a></li>
 		</ul>
 	</div>
 </div>

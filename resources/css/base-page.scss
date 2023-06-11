@@ -14,3 +14,24 @@ body{
     background-color:theme.$grey;
     color:theme.$white;
 }
+
+#main-content{
+    margin: 10rem 2rem 2rem 2rem;
+}
+
+.main-content__heading{
+
+}
+
+.main-content__text{
+
+}
+
+.main-content__date{
+    font-weight:bold;
+    color:theme.$teal
+}
+
+a{
+    color: theme.$white;
+}

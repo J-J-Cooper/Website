@@ -5,6 +5,9 @@ body {
 #nav {
   border-bottom: 0px solid #191516;
   background-color: #242424;
+  width: 100%;
+  top: 0px;
+  position: fixed;
 }
 
 #nav__heading {
@@ -19,7 +22,7 @@ body {
   height: 3rem;
   width: 3rem;
   border: none;
-  color: #f0f0f0;
+  color: #F2BB05;
   background-color: #242424;
   border-radius: 50%;
   display: block;
@@ -42,22 +45,21 @@ body {
   overflow: hidden;
 }
 
-#nav__li {
+.nav__li {
   float: left;
-}
-#nav__li a {
-  display: block;
   color: #f0f0f0;
+}
+.nav__li a {
+  display: block;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
   font-weight: bold;
 }
-#nav__li a:hover:not(.nav__active) {
-  background-color: #f0f0f0;
-  color: #191516;
+.nav__li a:hover:not(.nav__active) {
+  background-color: #1F887D;
 }
-#nav__li button {
+.nav__li button {
   border: none;
   border-radius: 50%;
   display: block;
@@ -68,7 +70,8 @@ body {
 }
 
 .nav__active {
-  background-color: #1F887D;
+  background-color: #f0f0f0;
+  color: #191516;
 }
 
 body {
@@ -80,5 +83,18 @@ body {
 
 .dark-mode {
   background-color: #242424;
+  color: #f0f0f0;
+}
+
+#main-content {
+  margin: 10rem 2rem 2rem 2rem;
+}
+
+.main-content__date {
+  font-weight: bold;
+  color: #1F887D;
+}
+
+a {
   color: #f0f0f0;
 }/*# sourceMappingURL=base-page.css.map */

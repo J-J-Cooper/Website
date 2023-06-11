@@ -3,6 +3,9 @@
 #nav {
     border-bottom:0px solid theme.$black;
     background-color: theme.$grey;
+    width:100%;
+    top:0px;
+    position:fixed;
 }
 
 #nav__heading{
@@ -17,7 +20,7 @@
     height:3rem;
     width:3rem;
     border:none;
-    color:theme.$white;
+    color:theme.$yellow;
     background-color:theme.$grey;
     border-radius:50%;
     display:block;
@@ -40,12 +43,12 @@
     overflow:hidden;
 }
 
-#nav__li{
+.nav__li{
     float: left;
+    color: theme.$white;
 
     a{
         display: block;
-        color: theme.$white;
         text-align: center;
         padding: 10px 10px;
         text-decoration: none;
@@ -53,8 +56,7 @@
     }
 
     a:hover:not(.nav__active){
-        background-color: theme.$white;
-        color:theme.$black;
+        background-color: theme.$teal;
     }
 
     button{
@@ -69,5 +71,6 @@
 }
 
 .nav__active{
-    background-color: theme.$teal;
+    background-color: theme.$white;
+    color:theme.$black;
 }
