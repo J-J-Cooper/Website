@@ -50,7 +50,7 @@ body {
   background-color: #f0f0f0;
   color: #191516;
 }
-body .dark-mode {
+body.dark-mode {
   background-color: #191516;
   color: #f0f0f0;
 }/*# sourceMappingURL=base-page.css.map */
