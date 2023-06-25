@@ -36,7 +36,7 @@
 			<p class="main-content__text">
 			I am a quiet and hard working person with a passion for computing, particularly web development.
 			<br>
-			Though I do not have much experience in this field, during my years in education i consistently achieved the highest achievable grades in all web-related modules, and thoroughly enjoyed the time spent on them.
+			During my years in education i consistently achieved the highest achievable grades in all web-related modules, and thoroughly enjoyed the time spent on them.
 			
 			<br>
 			In university,my final year major project and dissertation was an experience in web development. I created a web-based information management system for a local food bank which they continue to use to this day.

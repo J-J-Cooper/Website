@@ -31,10 +31,18 @@
 		
 		<div id="main-content">
 			<h2 class="main-content__heading">
-				Contact
+				Contact me
 			</h2>
 			<p class="main-content__text">
-				Under contruction
+				<form method="post" action="<?php echo htmlspecialchars($SERVER["PHP_SELF"]);?>">
+					<label for="formname"> Your name:</label>
+					<input type="text" id="formname" name="name" placeholder="Your name...">
+
+					<label for="message"> Your message:</label>
+					<textarea id="message" name="message" placeholder="Your message..."></textarea>
+
+					<input type="submit" value="Submit">
+				</form>
 			</p>
 		</div>
 		<!-- PHP footer -->
